@@ -16,6 +16,9 @@ img {
 section {
   padding: 50px 20px;
 }
+button {
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
 
 .timeline {
   position: relative;
@@ -33,4 +36,8 @@ section {
 
 .timeline-event: not(:last-child) {
   margin-bottom: 70%;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
 }
