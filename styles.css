@@ -13,3 +13,24 @@ body {
 img {
   width: 100%;
 }
+section {
+  padding: 50px 20px;
+}
+
+.timeline {
+  position: relative;
+  background-color: #9A9A9A
+}
+.timeline ::before {
+  content: "";
+  background: #00628C;
+  width:  50px;
+  height: 95%;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+
+.timeline-event: not(:last-child) {
+  margin-bottom: 70%;
+}
